@@ -6,7 +6,7 @@ def find_duplicates(array):
             if array[i] == array[j]:
                 return array[i]
     return -1
-
+#this code works for all the test cases possible or given for it.
 array = [3, 1, 3, 4, 2]
 n = 4
 print(find_duplicates(array))
